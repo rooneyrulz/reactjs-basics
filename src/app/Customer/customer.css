@@ -1,0 +1,11 @@
+.card-panel {
+   position: relative;
+}
+
+.btn-close {
+   position: absolute;
+   top: -.2em;
+   right: .3em;
+   font-size: 1.7em;
+   cursor: pointer;
+}
