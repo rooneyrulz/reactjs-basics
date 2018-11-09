@@ -1,5 +1,6 @@
 const webpack = require("webpack");
 const path = require("path");
+const openBrowser = require('open-browser-webpack-plugin');
 
 //Define the Path of Src Directory
 const SRC_DIR = path.resolve(__dirname, "src");
@@ -19,6 +20,11 @@ const config = {
       filename: "bundle.js",
       publicPath: "/app/"
    },
+   /*
+   plugins: [
+      new openBrowser('http://localhost:3000')
+   ],
+   */
 
    //Set up module
    module: {
